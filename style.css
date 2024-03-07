@@ -329,7 +329,7 @@ background: var(--Gold, #D8AD14);
 
 /* Fetures Section */
 .features-section {
-    background-image: url("./images/features-background.png");
+    background-image: url("images/features-background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -444,13 +444,13 @@ line-height: 150%; /* 24px */
 }
 
 .slider-section .slide-2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(34, 34, 34, 0.95) 100%), url('/images/Scotland-1.jpg'), lightgray 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(34, 34, 34, 0.95) 100%), url('images/Scotland-1.jpg'), lightgray 50%;
     background-position: center;
     background-size: cover;
 }
 
 .slider-section .slide-3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(34, 34, 34, 0.95) 100%), url('/images/Vernon-1.jpeg'), lightgray 50%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(34, 34, 34, 0.95) 100%), url('images/Vernon-1.jpeg'), lightgray 50%;
     background-position: center;
     background-size: cover;
 }
