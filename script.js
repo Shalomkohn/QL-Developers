@@ -109,15 +109,15 @@ function isElementInViewport(element, timeAdjustment) {
     );
 }
 
-function handleHeroFadeOnScroll(scrollPosition) {
-    if(window.location.pathname === '/portfolio.html') return
-    let heroContent = document.querySelector("#heroContent")
-    if (scrollPosition > 150) {
-        heroContent.style.opacity = 0
-    } else {
-        heroContent.style.opacity = 1
-    }
-}
+// function handleHeroFadeOnScroll(scrollPosition) {
+//     if(window.location.pathname === '/portfolio.html') return
+//     let heroContent = document.querySelector("#heroContent")
+//     if (scrollPosition > 150) {
+//         heroContent.style.opacity = 0
+//     } else {
+//         heroContent.style.opacity = 1
+//     }
+// }
 
 function handleScrollAnimation() {
     let boxes = document.querySelectorAll(".box")
